@@ -33,7 +33,7 @@ public void brandMotor(){
         total = total + getPrice(choice,total);   
     }while(choice != 0);
     System.out.println();
-    System.out.println("Date of Your Rent Motorcycle");
+    System.out.println("====Date of Your Rent Motorcycle====");
     setTimerent();
     System.out.print("How many day for rent? : ");
     day =input.nextInt();

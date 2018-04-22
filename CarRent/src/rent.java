@@ -2,7 +2,7 @@ import java.util.Scanner;
  class rent extends car {
      
      rent(){
-//         super();
+         super();
      }
    String l="n";
    int loop1;

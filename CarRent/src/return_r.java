@@ -4,19 +4,7 @@ import java.util.Scanner;
 
 public class return_r extends late_ret {
     public  void rere(){
-       
         
-//        int id1;
-//        Scanner ac1 =new Scanner(System.in);
-//        System.out.print("Your ID Card Number:");
-//        id1 = ac1.nextInt();
-//        
-//        int id2;
-//        Scanner ac2 =new Scanner(System.in);
-//        System.out.println("==================================================");
-//        System.out.print("Your ID Code number:");
-//        //System.out.println("==================================================");
-//        id2 = ac2.nextInt();
         
         int loop = 1; int no;
         do{ 

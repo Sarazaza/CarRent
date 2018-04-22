@@ -25,19 +25,14 @@ public class Main_car {
         System.out.print("Please Choose : ");
         Choose = ac4.nextInt();
         do {
-           
             if (Choose == 1) {
                 r.printfor();
                 r.login();
 
-            } else if (Choose == 2) {
-
-                
+            } else if (Choose == 2) {    
                 o.rere();
 
             }
-           
-
         } while (loop == 1 || loop == 2);
 
     }

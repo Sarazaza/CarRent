@@ -3,8 +3,6 @@ public class motor  {
      
     int getPrice(int num,int price){
     
-        
-    
         switch(num){
             case 1: 
                     price = 150; break;
@@ -23,9 +21,7 @@ public class motor  {
 
         
     }int getPrice1(int num1,int price1){
-    
-        
-    
+       
         switch(num1){
             case 1: 
                     price1 = 800; break;

@@ -4,6 +4,9 @@ import java.util.Scanner;
 public class Main_car {
 
     public static void main(String[] args) {
+        
+        int Choose;
+        do{
         System.out.println("===============WELCOME================");
         System.out.println("===========PK Car For Rent============");
         int loop = 0;
@@ -19,7 +22,7 @@ public class Main_car {
         System.out.println("\tChoose 2.return the car");
         System.out.println("======================================");
         
-        int Choose;
+        
         
         Scanner ac4 = new Scanner(System.in);
         System.out.print("Please Choose : ");
@@ -34,7 +37,7 @@ public class Main_car {
 
             }
         } while (loop == 1 || loop == 2);
-
+        }while(Choose != 0);
     }
 
 }

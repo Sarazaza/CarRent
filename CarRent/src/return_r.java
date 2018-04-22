@@ -19,12 +19,19 @@ public class return_r extends late_ret {
         }while(no != 1 && no != 2);
         
         if(no==1){
+          Date currentDate = new Date();
+        System.out.println(currentDate);
+        Date epoch = new Date(2018, 4, 22);
+        Date today = new Date(2018, 4, 24);
+        
+        long diff = today.getTime() - epoch.getTime();
+		System.out.println("เกินกำหนดคืนรถ " + (diff / (1000*60*60*24)) + " วัน");   
                 late_ret t = new late_ret();
                 t.late_ret();             
         }
         
         else if(no==2){
-          System.out.println("*********Thankyou********** !!!");  
+          System.out.println("******************Thankyou****************** !!!");  
         }
     }
 }

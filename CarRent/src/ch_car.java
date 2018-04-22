@@ -70,11 +70,8 @@ public void brandCar(){
         choice1 = input.nextInt();
         total1 = total1 + getPrice1(choice1,total1);   
     }while(choice1 != 0);
-    setTimerent();
-    System.out.print("How many day for rent? : ");
-    day1 =input.nextInt();
     System.out.println();
-    System.out.println("====Date of Your Rent Motorcycle====");
+    System.out.println("====Date of Your Rent Car====");
     setTimerent();
     System.out.print("How many day for rent? : ");
     day1 =input.nextInt();

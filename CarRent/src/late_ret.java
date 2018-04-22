@@ -6,7 +6,6 @@ public class late_ret {
     public int ToltalRate ;
     
     Scanner a =new Scanner(System.in);
-//    private String TotalRate;
     
     int late_ret(){
     System.out.print("How many day of your late :");
@@ -21,24 +20,18 @@ public class late_ret {
         
         System.out.print("");
         ToltalRate = howday*80;
-        System.out.print("Toltal "+ToltalRate);
+        System.out.println("Toltal "+ToltalRate);
          break;
         
     
         case 2:
         System.out.print("");    
         ToltalRate = howday*500;
-        System.out.print("Toltal Late of Your Car is :"+ToltalRate);
+        System.out.println("Toltal Late of Your Car is :"+ToltalRate);
         break;
     }
-        return 0;
-    
-    
+        return 0;   
 }
-//    int printt(){
-//    System.out.print
-//    }("Late"+this.TotalRate);
-//        return 0;
 }
  
     

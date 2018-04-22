@@ -4,11 +4,10 @@
  * and open the template in the editor.
  */
 
-
 /**
  *
- * @author User
+ * @author user
  */
-public class car_r {
+class day {
     
 }

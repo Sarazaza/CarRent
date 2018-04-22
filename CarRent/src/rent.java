@@ -1,64 +1,97 @@
-
-
 import java.util.Scanner;
  class rent extends car {
-    
+     
+     rent(){
+//         super();
+     }
+   String l="n";
    int loop1;
-   public String name;
-   public String Surname;
-   public int Number;
+   private String name;
+   private String Surname;
+   private int Number;
    private int Id;
     Scanner ac3 =new Scanner(System.in);
     
+    public void printfor() {
+     System.out.println("================LOGIN=================");
+       
+    }
+    
     public void login(){
-     System.out.println("====LOGIN======");
      String name;
      Scanner ac =new Scanner(System.in);
-     System.out.print("Your name :");
+     System.out.print("Enter Your name : ");
      name= ac.nextLine();
-    String Surname;
-    Scanner ac1 =new Scanner(System.in);
-     System.out.print("Your Surname:");
+     
+     String Surname;
+     Scanner ac1 =new Scanner(System.in);
+     System.out.print("Enter Your Surname : ");
      Surname= ac.nextLine();
+     
      int Number;
      Scanner ac2 =new Scanner(System.in);
      System.out.print("Your NumberPhone (Thailand):");
      Number = ac.nextInt();
-     System.out.print("Your Id_card Number:");
+     
+     System.out.print("Your Id_card Number:(13) : ");
      Id= ac3.nextInt();
       
-     int sel;  
+     int sell;  
      do{
-         System.out.println("==================================");
-         System.out.println("What do you want to car for rent?");
+         System.out.println("=====================================");
+         System.out.println("What do you want a car for rent?");
          System.out.println("1.Motorcycle");
          System.out.println("2.Car");
-         System.out.print("Your choose :");
-         sel =ac.nextInt();
+         System.out.print("Please choose :");
+         sell =ac.nextInt();
         
-         ch_car u =new ch_car();
-        if (sel==1){
-        u.brand();
-       
+         ch_car b =new ch_car();
          
-        }
-     
-      }while ( loop1== 1||loop1==2) ; 
-      
+         if (sell==1){
+         b.brandMotor();
+        
+        
+        
+     }else if(sell==2){
+         b.brandCar();
+   
+     }
+    
+    }while ( loop1== 1||loop1==2) ; 
+         
             
              
      }
 
  
-   public void setId (int a){
-         Id =a;
-         
+   public void setName (String n){
+         name =n;    
      }
-    public int getId(){
+    public int getName(){
         return Id;
     }
-     
-     
+    
+    
+    public void setSurname(String s){
+         Surname =s;    
+     }
+    public String getId(){
+        return Surname;
+    }
+    
+    
+    public void setNumber (int m){
+         Number =m;    
+     }
+    public int getNumber(){
+        return Number;
+    }
+    
+    
+    public void setId (int a){
+         Id =a;    
+     }
+    
 }
     
 

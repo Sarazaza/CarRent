@@ -1,14 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-
-/**
- *
- * @author User
- */
 public class motor  {
      
     int getPrice(int num,int price){
@@ -30,5 +20,29 @@ public class motor  {
                     price= 160; break;
         }
         return price;
+
+        
+    }int getPrice1(int num1,int price1){
+    
+        
+    
+        switch(num1){
+            case 1: 
+                    price1 = 800; break;
+            case 2: 
+                    price1= 750; break;
+            case 3: 
+                    price1= 800; break;
+            case 4:
+                    price1= 750; break;
+            case 5: 
+                    price1= 900; break;
+           
+        }
+        return price1;
 }
+    
 }
+    
+    
+
